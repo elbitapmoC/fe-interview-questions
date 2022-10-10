@@ -2,7 +2,7 @@ import { useState } from "react";
 import Head from "next/head";
 import Footer from "../components/Footer";
 import ForEachVsMap from "../components/ForEachVsMap";
-import NullVsUndefined from "../components/NullVsUndefined";
+import FizzBuzz from "../components/FizzBuzz";
 import EventDelegation from "../components/EventDelegation";
 import FlattenArray from "../components/FlattenArray";
 export default function Home() {
@@ -27,10 +27,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="main">
-        <ForEachVsMap />
-        <NullVsUndefined />
+        {/* <ForEachVsMap />
         <EventDelegation />
-        <FlattenArray />
+        <FlattenArray /> */}
+        <FizzBuzz />
       </div>
       <Footer />
     </div>
